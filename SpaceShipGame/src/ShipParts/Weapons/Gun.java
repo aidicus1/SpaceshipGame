@@ -3,7 +3,7 @@ package ShipParts.Weapons;
 public class Gun {
 	private String name;
 	private Round round;
-	private int cost;
+	private double cost;
 	private int durability;
 	private int maxDurability;
 	public Gun(String Name, Round chambered, int Durability) {
@@ -25,7 +25,7 @@ public class Gun {
 	public int getCalibre() {
 		return round.getCalibre();
 	}
-	public int getCost() {
+	public double getCost() {
 		return cost;
 	}
 	public Boolean Fire() {

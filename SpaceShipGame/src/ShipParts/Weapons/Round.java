@@ -3,7 +3,7 @@ package ShipParts.Weapons;
 public class Round {
 	private int calibre;
 	private String name;
-	private int cost;
+	private double cost;
 	public Round(int Calibre,String Name) {
 		calibre = Calibre;
 		name = Name;
@@ -15,7 +15,7 @@ public class Round {
 	public String getName() {
 		return name;
 	}
-	public int getCost() {
+	public double getCost() {
 		return cost;
 	}
 }
